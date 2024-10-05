@@ -23,9 +23,34 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: black;
-  text-align: center;
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
+#p1 {
+  background-color: #D59898;
+  position: relative;
+  top: 65px;
+  left: 65px;  
+}
+
+#p2 {
+  background-color: #C14543;
+  position: relative;
+  top: 65px;
+  left: 65px;
+  color: white;
+}
+
+#p3 {
+  background-color: #E5D198;
+  position: relative;
+  top: 65px;
+  left: 65px;  
+}
+  
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -170,9 +195,18 @@ p {
 <h1>Responsive Layout</h1>
 
 <div class="row">
-  <div class="col-lg-4 col-md-6 col-sd-12"><p>lorem ipsum 1</p></div>
-  <div class="col-lg-4 col-md-6 col-sd-12"><p>lorem ipsum 2</p></div>
-  <div class="col-lg-4 col-md-12 col-sd-12"><p>lorem ipsum 3</p></div>
+  <div class="col-lg-4 col-md-6 col-sd-12">
+    <p>lorem ipsum 1</p>
+    <p id="p1">Chicken</p>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sd-12">
+    <p>lorem ipsum 2</p>
+    <p id="p2">Beef</p>    
+  </div>
+  <div class="col-lg-4 col-md-12 col-sd-12">
+    <p>lorem ipsum 3</p>
+    <p id="p3">Sushi</p>  
+  </div>
 </div>
 
 </body>
