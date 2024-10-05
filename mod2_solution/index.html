@@ -27,6 +27,8 @@ p {
   display: flex;
   justify-content: center; 
   align-items: center; 
+
+  position: relative;
 }
 
 #p1 {
@@ -54,7 +56,7 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  position: relative;
+
 }
 
 /********** Desktop Version **********/
@@ -197,8 +199,11 @@ p {
 
 <div class="row">
   <div class="col-lg-4 col-md-6 col-sd-12">
-    <p>lorem ipsum 1</p>
-    <p id="p1">Chicken</p>
+    <p>
+      <p id="p1">Chicken</p>
+      lorem ipsum 1
+    </p>
+    
   </div>
   <div class="col-lg-4 col-md-6 col-sd-12">
     <p>lorem ipsum 2</p>
