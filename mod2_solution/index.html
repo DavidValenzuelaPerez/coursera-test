@@ -10,8 +10,17 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
 h1 {
   margin-bottom: 15px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 p {
@@ -155,6 +164,15 @@ p {
   .col-md-12 {
     width: 100%;
   }
+  .col-md-12 p {
+    width: 95%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .col-md-12 #p3 {
+    right: 2.5%; 
+  }
+
 }
 
 /********** Mobile View **********/
@@ -216,7 +234,7 @@ p {
     <p id="p2">Beef</p>    
   </div>
   <div class="col-lg-4 col-md-12 col-sd-12">
-    <p>lorem ipsum 3</p>
+    <p width: 95%>lorem ipsum 3</p>
     <p id="p3">Sushi</p>  
   </div>
 </div>
