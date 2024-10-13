@@ -1,13 +1,6 @@
 /********** BODY **********/
 body {
-  font-size: 16px;
-  color: #61122f;  
-}
-
-.navbar-brand {
-  height: 50px;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 16px; 
 }
 
 /********** END BODY **********/
@@ -17,11 +10,18 @@ body {
   background-color: #999999;
   border-radius: 0;
   border: 0;
+  height: 100px;
 }
 
-.navbar-brand h1 {
+.navbar-header .navbar-brand h1 {
   float: left;
   margin: 0; 
+  color:black
+}
+
+.no-auto-margins {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /********** END HEADER **********/
