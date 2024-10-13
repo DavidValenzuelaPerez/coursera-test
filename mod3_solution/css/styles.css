@@ -19,6 +19,11 @@ body {
   border: 0;
 }
 
+.navbar-brand h1 {
+  float: left;
+  margin: 0; /* To remove default margin if any */
+}
+
 /********** END HEADER **********/
 
 /********** MEDIA QUERYS **********/
