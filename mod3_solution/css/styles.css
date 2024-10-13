@@ -1,9 +1,20 @@
+/********** BODY **********/
+body {
+  font-size: 16px;
+  color: #fff;
+  color: #61122f;  
+}
+
+/********** END BODY **********/
+
 /********** HEADER **********/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #999999;
   border-radius: 0;
   border: 0;
 }
+
+/********** END HEADER **********/
 
 /********** MEDIA QUERYS **********/
 
