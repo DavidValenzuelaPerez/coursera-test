@@ -21,7 +21,7 @@ body {
 
 .navbar-brand h1 {
   float: left;
-  margin: 0; /* To remove default margin if any */
+  margin: 0; 
 }
 
 /********** END HEADER **********/
