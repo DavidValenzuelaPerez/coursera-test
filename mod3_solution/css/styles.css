@@ -5,6 +5,12 @@ body {
   color: #61122f;  
 }
 
+.navbar-brand {
+  height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 /********** END BODY **********/
 
 /********** HEADER **********/
