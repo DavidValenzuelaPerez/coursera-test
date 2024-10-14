@@ -7,21 +7,37 @@ body {
 
 /********** HEADER **********/
 #header-nav {
+  align-items: center;
   background-color: #999999;
   border-radius: 0;
   border: 0;
-  height: 100px;
+  height: auto;  
 }
 
 .navbar-header .navbar-brand h1 {
   float: left;
   margin: 0; 
-  color:black
+  color:black;
+  font-size: 20px;
+  font-weight: bolder; 
+}
+
+.navbar-collapse {
+  border: 0px;
 }
 
 .no-auto-margins {
   margin-right: 15px;
   margin-left: 15px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#nav-list li {
+  text-align: center;
 }
 
 /********** END HEADER **********/
@@ -118,6 +134,18 @@ body {
 
 /********** Mobile View **********/
 @media (max-width: 767px) {
+
+  #collapsable-nav {
+    float: none;
+    clear: both; 
+  }
+
+  #nav-list li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 5px;
+  }
+
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     /*float: left;*/
     /*position: relative;*/

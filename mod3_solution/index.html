@@ -23,17 +23,25 @@
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container no-auto-margins">
-        <div class="navbar-header">
+        <div class="navbar-header navbar-left">
           
           <div class="navbar-brand">
             <h1>Food, LLC</h1>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="icon-bar">Chicken</span>
-            <span class="icon-bar">Beef</span>
-            <span class="icon-bar">Sushi</span>
+          <button type="button" class="navbar-toggle collapsed visible-xs hidden-ms hidden-sm" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+             <li class="visible-xs hidden-sm hidden-md hidden-lg only-li"><br> Chicken</li>
+             <li class="visible-xs hidden-sm hidden-md hidden-lg only-li"><br> Beef</li>
+             <li class="visible-xs hidden-sm hidden-md hidden-lg only-li"><br> Sushi</li>
+           </ul>
+         </div>
           
         </div>
       </div>
