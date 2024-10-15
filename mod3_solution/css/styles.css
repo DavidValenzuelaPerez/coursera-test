@@ -38,9 +38,56 @@ body {
 
 #nav-list li {
   text-align: center;
+  background-color: #03fcba;
 }
 
 /********** END HEADER **********/
+
+/********** main-content **********/
+
+#menu-Chicken {
+  width: 95%;
+  height: 500px;  
+  
+  margin: 10px 10px 10px 10px;
+  background-color: aqua;
+  border: 1px solid black;
+
+}
+
+#menu-Beef {
+  width: 95%;
+  height: 500px;  
+  
+  margin: 10px 10px 10px 10px;
+  background-color: olivedrab;
+  border: 1px solid black;
+
+}
+
+#menu-Sushi {
+  width: 95%;
+  height: 500px;  
+  
+  margin: 10px 10px 10px 10px;
+  background-color: grey;
+  border: 1px solid black;
+
+}
+
+.ipsum-title {
+  font-size: 20px;
+  font-weight: bolder;
+  align-content: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.ipsum-blah {
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+}
+
+/********** END main-content **********/
 
 /********** MEDIA QUERYS **********/
 
